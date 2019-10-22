@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					DDCD2A8E2186A82800149C48 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WNU8224D56;
 						ProvisioningStyle = Automatic;
 					};
 					DDCD2AA22186A82800149C48 = {
@@ -412,11 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNU8224D56;
 				INFOPLIST_FILE = CDEto123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cracked.CDEto123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,11 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WNU8224D56;
 				INFOPLIST_FILE = CDEto123/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cracked.CDEto123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +512,7 @@
 				DDCD2AB92186A82900149C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCD2ABA2186A82900149C48 /* Build configuration list for PBXNativeTarget "CDEto123Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				DDCD2ABC2186A82900149C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDCD2ABD2186A82900149C48 /* Build configuration list for PBXNativeTarget "CDEto123UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				DDCD2ABF2186A82900149C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
